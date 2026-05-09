@@ -1,0 +1,29 @@
+# Ignore Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+pneumo_env/
+env/
+venv/
+*.env
+
+# Ignore dataset folders & large files
+chest_xray_reshuffled/
+*.zip
+*.tar
+*.gz
+*.csv
+*.jpg
+*.jpeg
+*.png
+
+# Ignore system files
+.DS_Store
+Thumbs.db
